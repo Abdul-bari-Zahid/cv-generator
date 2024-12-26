@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.cv {
+    border-top: 2px solid #007bff;
+    padding-top: 20px;
+}
+
+.cv h2 {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-family: initial;
+}
+
+.cv p {
+    margin-left: 2% ;
+    width: auto;
+    color: rgb(34, 33, 33);
+}
+.cv h3 {
+    color: rgb(255, 255, 255);
+    margin-left: 2%;
+    /* font-family: oblique 23deg; */
+    font-size: xx-larges;
+    
+    font-family: 'TrocchiBoldStencil';
+    font-weight: bold;
+    font-style: normal;
+}
+#lineBreak{
+    height: 1vh;
+    width: 24%;
+    background-color: #646668;
+}
+#cv-form{
+    width: auto;
+}
+#cv-output{
+/* //background-image: url(./Blue\ and\ Gray\ Simple\ Professional\ CV\ Resume.png ); */
+/* border-image-width: auto;
+size-adjust: 45% 82%; */
+width: 100%;
+padding-bottom: 5px;
+padding-left: 2%;
+height: auto; background-repeat: no-repeat;
+}
+#cv-output p{
+    color: #d6d6d6;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 2%;
+}
+#cv-output h2{
+    color: #ffffff;
+    font-family: 'DeGermLoCaseRegular';
+font-size: 4em;
+text-decoration: underline;
+text-align: center;
+}
+
+#con1{
+    /* background-color: #343d4d; */
+    background-image: url(White\ And\ Black\ Gradient\ Coming\ Soon\ Email\ Header.png);
+    padding-left: -2%;
+    margin-left: -20px;
+    padding-top: 1.4%;
+    width: 100%;
+    size: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+#educationpara{
+    background-color: #363636;
+    /* background:linear-gradient( #1A594F#5F968F) ; */
+    font-size: 12%;
+}
+/* #con2{
+    width: auto;
+} */
