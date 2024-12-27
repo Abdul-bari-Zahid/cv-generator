@@ -3,6 +3,9 @@
         height: 90vh;
         margin-top: -1.6%;
     }
+    .Primium{
+        margin-top: 2%;
+    }
     .container-fluid{
       background: rgb(185, 189, 214);
       background: radial-gradient(circle, rgb(0, 0, 0) 0%, rgb(18, 73, 255) 60%); 
@@ -37,6 +40,9 @@ nav ul li a {
 .card:hover{
   margin-top: -1%;
 }
+.bold:hover{
+    color: black;
+}
 #more{
         display: none;
         font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -64,14 +70,11 @@ nav ul li a {
 #foota li a{
     color: #ffffff;
 }
-@media only screen and  (max-width: 325px) {
-    #bodysection{
-margin-top: -197%;
-    }
-}
+
+
 @media only screen and (min-width: 320px) and (max-width: 375px) {
     #bodysection{
-margin-top: -90%;
+margin-top: -113.5%;
     }
 }
 @media only screen and (min-width: 375px) and (max-width: 425px) {
@@ -81,6 +84,11 @@ margin-top: -90%;
 }
 @media only screen and (min-width: 425px) and (max-width: 768px) {
     #bodysection{
-margin-top: -22%;
+margin-top: -74%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #bodysection{
+margin-top: -24%;
     }
 }
